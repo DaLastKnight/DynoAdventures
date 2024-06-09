@@ -33,5 +33,5 @@ Link: https://arks.itch.io/dino-characters
 Link: https://kyrise.itch.io/kyrises-free-16x16-rpg-icon-pack
 - Art Assets: Rottingpixels, Nature Platformer Tileset[16x16]
 Link: https://rottingpixels.itch.io/nature-platformer-tileset
-- Art Assets: Tiny Worlds, Free Pixel Font - Thaleah
+- Art Asset: Tiny Worlds, Free Pixel Font - Thaleah
 Link: https://tinyworlds.itch.io/free-pixel-font-thaleah
