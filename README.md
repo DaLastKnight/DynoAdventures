@@ -22,16 +22,16 @@
 
  # Credits
 - Music Asset: Kevin Macloed, Cyborg Ninja
-Link: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600008&Search=Search
+- Link: https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600008&Search=Search
 - Art, SFX Assets: Brackeys, brackeys_platformer_assets
-Link: https://brackeysgames.itch.io/brackeys-platformer-bundle
+- Link: https://brackeysgames.itch.io/brackeys-platformer-bundle
 - Art Assets: greenpixels, Buttons
-Link: https://greenpixels.itch.io/pixel-art-asset-3
+-Link: https://greenpixels.itch.io/pixel-art-asset-3
 - Art Assets: Arks, Dino Characters
-Link: https://arks.itch.io/dino-characters
+- Link: https://arks.itch.io/dino-characters
 - Art Assets: Kyrise, 16x16 RPG Icon Pack
-Link: https://kyrise.itch.io/kyrises-free-16x16-rpg-icon-pack
+- Link: https://kyrise.itch.io/kyrises-free-16x16-rpg-icon-pack
 - Art Assets: Rottingpixels, Nature Platformer Tileset[16x16]
-Link: https://rottingpixels.itch.io/nature-platformer-tileset
+- Link: https://rottingpixels.itch.io/nature-platformer-tileset
 - Art Asset: Tiny Worlds, Free Pixel Font - Thaleah
-Link: https://tinyworlds.itch.io/free-pixel-font-thaleah
+- Link: https://tinyworlds.itch.io/free-pixel-font-thaleah
