@@ -2,7 +2,7 @@
  A simple 2D platformer game for EAE
 
  ## About
- My magnum opus of gamemaking as of now! It took me 1 week to complete this. Doing this project, I struggled and faced numerous errors and challenges along the way, but I pushed through and got it done! Overall, a fun learning experience that I look forward to doing again in the future!
+ My magnum opus of gamemaking as of now! It took me 1 week to complete this. While doing this project, I struggled and faced numerous errors and challenges along the way, but I pushed through and got it done! Overall, a fun learning experience that I look forward to doing again in the future!
 
  ## Objective of project
  - Create a relatively simple 2D platformer game reminiscent of popular ones e.g. Hollow Knight
@@ -10,7 +10,7 @@
 
  ## Features
  - Has a title screen with instructions on it
- - Has a dash mechanic
+ - Has a dash mechanic for player
  - Enemies can detect players from a distance and head to their position
  - Attacking enemies does a knockback effect
  
