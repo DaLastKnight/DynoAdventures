@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://closhntr7x2x5"]
+
+[ext_resource type="Script" path="res://scripts/boundary.gd" id="1_gq7uy"]
+[ext_resource type="AudioStream" uid="uid://c2istjihwd8si" path="res://assets/sfx/hurt.wav" id="2_vjvc7"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_ajlgg"]
+distance = -176.0
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_c3npp"]
+distance = -143.0
+
+[node name="Boundary" type="StaticBody2D"]
+script = ExtResource("1_gq7uy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("WorldBoundaryShape2D_ajlgg")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("WorldBoundaryShape2D_c3npp")
+
+[node name="deathsound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("2_vjvc7")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
