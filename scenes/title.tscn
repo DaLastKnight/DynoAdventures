@@ -744,5 +744,5 @@ text = "dash"
 
 [connection signal="button_down" from="playbutton" to="." method="_on_playbutton_button_down"]
 [connection signal="pressed" from="playbutton" to="." method="_on_playbutton_pressed"]
-[connection signal="pressed" from="pressplay" to="." method="_on_playbutton_pressed"]
 [connection signal="pressed" from="pressplay" to="." method="_on_pressplay_pressed"]
+[connection signal="pressed" from="pressplay" to="." method="_on_playbutton_pressed"]
