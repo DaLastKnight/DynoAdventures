@@ -35,3 +35,7 @@
 - Link: https://rottingpixels.itch.io/nature-platformer-tileset
 - Art Asset: Tiny Worlds, Free Pixel Font - Thaleah
 - Link: https://tinyworlds.itch.io/free-pixel-font-thaleah
+- SFX Asset: whoosh noise, Pixabay
+- Link: https://pixabay.com/sound-effects/whoosh-noise-45477/
+- SFX Asset: Swing Whoosh Weapon 5, floraphonic
+- Link: https://pixabay.com/sound-effects/swing-whoosh-weapon-5-189821/
