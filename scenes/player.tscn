@@ -1,8 +1,9 @@
-[gd_scene load_steps=21 format=3 uid="uid://c6ddyiwl5v63x"]
+[gd_scene load_steps=22 format=3 uid="uid://c6ddyiwl5v63x"]
 
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_74m4j"]
 [ext_resource type="Texture2D" uid="uid://b23sdrqg5qyrd" path="res://assets/player/DinoSprites - vita.png" id="1_djhvl"]
 [ext_resource type="AudioStream" uid="uid://ck8ir328svxpt" path="res://assets/sfx/jump.wav" id="3_jpcfp"]
+[ext_resource type="AudioStream" uid="uid://ci7k555r0n56h" path="res://assets/sfx/whoosh-6316.wav" id="4_3fhbd"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_762ry"]
 atlas = ExtResource("1_djhvl")
@@ -158,6 +159,9 @@ shape = SubResource("CapsuleShape2D_envwg")
 
 [node name="jumpsound" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("3_jpcfp")
+
+[node name="dashsound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_3fhbd")
 
 [connection signal="timeout" from="dashtimer" to="." method="_on_dashtimer_timeout"]
 [connection signal="timeout" from="dashagaintimer" to="." method="_on_dashagaintimer_timeout"]

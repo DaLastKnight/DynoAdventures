@@ -1,8 +1,9 @@
-[gd_scene load_steps=9 format=3 uid="uid://slwes18d6tbk"]
+[gd_scene load_steps=10 format=3 uid="uid://slwes18d6tbk"]
 
 [ext_resource type="Script" path="res://scripts/weapon.gd" id="1_enl86"]
 [ext_resource type="Texture2D" uid="uid://o4ihilsvu4b2" path="res://assets/misc/spritesheet_16x16.png" id="1_vwgvp"]
 [ext_resource type="Script" path="res://scripts/Hitbox.gd" id="2_u5hpr"]
+[ext_resource type="AudioStream" uid="uid://ej0rbvqjmtj8" path="res://assets/sfx/swing-whoosh-5-198498.wav" id="4_44tbu"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_h5sbp"]
 radius = 5.0
@@ -121,3 +122,6 @@ disabled = true
 libraries = {
 "": SubResource("AnimationLibrary_eolud")
 }
+
+[node name="swingsound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_44tbu")

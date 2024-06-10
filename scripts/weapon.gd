@@ -2,7 +2,8 @@ extends Node2D
 
 @onready var sprite_2d = $Sprite2D
 @onready var animation_player = $AnimationPlayer
-	
+@onready var swingsound = $swingsound
+
 
 func _physics_process(_delta):
 	var direction = Input.get_axis("move_left", "move_right")
@@ -32,8 +33,10 @@ func _physics_process(_delta):
 		if direction2:
 			if direction2 is Vector2:
 				if direction2.x > 0:
+					swingsound.play()
 					animation_player.play("slash_right")
 				elif direction2.x < 0:
+					swingsound.play()
 					animation_player.play("slash_left")
 				else:
 					return

@@ -6,11 +6,12 @@ extends CharacterBody2D
 @onready var dashtimer = $dashtimer
 @onready var dashagaintimer = $dashagaintimer
 @onready var jumpsound = $jumpsound
+@onready var dashsound = $dashsound
 
 
 const SPEED = 100.0
 const JUMP_VELOCITY = -250.0
-const DASHSPEED = 250.0
+const DASHSPEED = 200.0
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
@@ -63,6 +64,7 @@ func _physics_process(delta): # Pretty sure delta is amount of time between each
 		velocity.y = JUMP_VELOCITY
 		
 	if Input.is_action_just_pressed("dash") and candash:
+		dashsound.play()
 		dashing = true # When player presses "dash" key, the "dashing" state becomes true
 		candash = false # Player can't spam the key "dash" so there is a cooldown
 		dashtimer.start(0.5) # Duration of "dash" state
