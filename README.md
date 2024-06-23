@@ -1,5 +1,5 @@
 # DynoAdventures
- A simple 2D platformer game for EAE
+ A simple 2D platformer game made in Godot
 
  ## About
  My first full-scale 2D platformer made in Godot! It took me 1 week to complete this. While doing this project, I struggled and faced numerous errors and challenges along the way, but I pushed through and got it done! Overall, it was a fun learning experience that makes me look forward to doing this again in the future!
